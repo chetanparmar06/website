@@ -1,0 +1,203 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body,
+html {
+    font-family: Roboto, sans-serif, arial;
+    background: #e5939314;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.width-100 {
+    width: 100%;
+    float: left;
+    color: red;
+}
+
+.container {
+    width: 1375px;
+    margin: 0px auto;
+}
+
+.top-header {
+    background: #2196f3;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+
+}
+
+.news-list {
+    background: white;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.headquote {
+    font-size: 18px;
+    color: white;
+    width: 80%;
+}
+
+.header-menu {
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+}
+
+.logo {
+    width: fit-content;
+    float: left;
+}
+
+.main-menu {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.main-menu a {
+    font-weight: 700;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.main-menu li {
+    float: left;
+    padding: 12px 19px;
+}
+.margin-top {
+    margin-top: 50px;
+}
+
+.width-33 {
+    width: 33%;
+    float: left;
+}
+.course{
+    color: black;
+    background-color: white;
+    margin: 8px;
+    padding: 2px;
+    padding-left: 2%;
+    font-size: 40px;
+    border: 1px solid #fff;
+}
+
+.latest-news {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.heading-sect {
+    width: 100%;
+    float: left;
+    border-bottom: 0px;
+    padding-bottom: 10px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: white;
+}
+
+.head-title {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.letest-news-ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+}
+
+.footer {
+    background: #232f3e;
+    padding: 72px;
+}
+
+.quicklink-menu {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.quicklink-heading {
+    list-style: none;
+    padding-left: 2px;
+    color: white;
+}
+
+.quicklink-menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    line-height: 2.5;
+
+}
+
+.width-21 {
+    width: 21%;
+    float: left;
+}
+
+.get-in-tuch {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.get-in-tuch li i {
+    color: #ed372c;
+    font-size: 20px;
+}
+
+.get-in-tuch li {
+    color: white;
+    line-height: 2.5;
+    font-size: 15px;
+}
+
+.footer-website {
+    font-size: 12px;
+    /*font-weight: bold; */
+    color: white;
+    text-decoration: none;
+}
+
+.footer-e-mail {
+    font-size: 15px;
+    /* font-weight: bold; */
+    color: white;
+    text-decoration: none;
+}
+
+.footer-contact {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.social-media li a img {
+    width: 30px;
+}
+
+.social-media li {
+    float: left;
+    padding: 0px 8px;
+}

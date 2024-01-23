@@ -1,0 +1,162 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body,
+html {
+    font-family: Roboto, sans-serif, arial;
+    background: #e5939314;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.width-100 {
+    width: 100%;
+    float: left;
+    color: red;
+}
+
+.container {
+    width: 1375px;
+    margin: 0px auto;
+    background-color: white;
+}
+
+.top-header {
+    background: #2196f3;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+
+}
+
+.news-list {
+    background: white;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.headquote {
+    font-size: 18px;
+    color: white;
+    width: 80%;
+}
+
+.header-menu {
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+    background: #e5939361;
+}
+
+.logo {
+    width: fit-content;
+    float: left;
+}
+
+.main-menu {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.main-menu a {
+    font-weight: 700;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.main-menu li {
+    float: left;
+    padding: 12px 15px;
+}
+.margin-top {
+    margin-top: 50px;
+}
+
+.width-33 {
+    width: 33%;
+    float: left;
+}
+.container-contact{
+    width: 80%;
+    margin: 50px auto;
+ /*   background-color: white; */
+}
+.contact-box{
+    background: white;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #2c1994b5;
+    color: white;
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.container-contact p{
+margin-bottom: 40px;
+font-size: 23px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+}
+button{
+    background: grey;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: black;
+    margin-top: 20px;
+    border-radius: 30px;
+    height: 35px;
+    box-shadow: 0px 5px 15px 0ox rgba(28, 0, 181, 0.3);
+}
+.contact-left h3{
+    color: #1c005b;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+    font-size: 19px;
+}
+.input-group{
+    width: 40%;
+}
